@@ -7,9 +7,9 @@ public class Cadena{
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Escribe tu Nombre: ");
-        String nombre = entrada.nextLine();
+        nombre = entrada.nextLine();
         System.out.println("Escribe tu Apellido: ");
-        String apellido = entrada.nextLine();
+        apellido = entrada.nextLine();
         System.out.println("Tu nombre es: "+ nombre +" "+ apellido);
     }
 }
